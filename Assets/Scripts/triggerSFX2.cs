@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 // Sam Robichaud NSCC
 
-public class TriggerSetActive : MonoBehaviour
+public class TriggerSFX2 : MonoBehaviour
 {
     public AudioSource sfx2;
 
@@ -17,6 +16,5 @@ public class TriggerSetActive : MonoBehaviour
     {
         sfx2.Stop();
     }
-
 
 }
